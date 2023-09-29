@@ -18,58 +18,61 @@
             <div class="centered">Odin</div>
             <div class="bottom-centered">Page created by Travis Chan</div>
         </div>
-        <div id="right-container">
-            <div id="hero-container">
-                <h2>This is not a real online service! You know you need something like this in your life to help you
-                    realize your deepest dreams. <span id="emphasize-text">Sign up now</span> to get started.</h2>
-                <h2>You <i>know</i> you want to.</h2>
-            </div>
-            <div id="sign-up-container">
-                <h3>Let's do this!</h3>
-                <div id="mini-container">
-                    <form action="#" method="post" autocomplete="off">
-                        <div>
-                            <!-- <form action="#" method="post" autocomplete="off"> -->
-                            <label for="first_name">First Name</label>
-                            <!-- <br> -->
-                            <input type="text" id="first_name" name="first_name">
-                            <br>
-                            <label for="email">Email</label>
-                            <!-- <br> -->
-                            <input type="email" id="email" name="email">
-                            <br>
-                            <label for="password">Password</label>
-                            <!-- <br> -->
-                            <input type="password" id="password" name="password">
-                            <br>
-                            <!-- </form> -->
-                        </div>
-                        <div>
-                            <!-- <form action="#" method="post" autocomplete="off"> -->
-                            <label for="last_name">Last Name</label>
-                            <!-- <br> -->
-                            <input type="text" id="last_name" name="last_name">
-                            <br>
-                            <label for="phone">Phone Number</label>
-                            <!-- <br> -->
-                            <input type="tel" id="phone" name="phone">
-                            <br>
-                            <label for="confirm_password">Confirm Password</label>
-                            <!-- <br> -->
-                            <input type="password" id="confirm_password" name="confirm_password">
-                            <br>
-                            <!-- </form> -->
-                        </div>
-                    </form>
+        <form action="#" method="post" autocomplete="off">
+            <div id="right-container">
+                <div id="hero-container">
+                    <h2>This is not a real online service! You know you need something like this in your life to help
+                        you
+                        realize your deepest dreams. <span id="emphasize-text">Sign up now</span> to get started.</h2>
+                    <h2>You <i>know</i> you want to.</h2>
+                </div>
+                <div id="sign-up-container">
+                    <h3>Let's do this!</h3>
+                    <div id="mini-container">
+                        <!-- <form action="#" method="post" autocomplete="off"> -->
+                            <div>
+                                <!-- <form action="#" method="post" autocomplete="off"> -->
+                                <label for="first_name">First Name</label>
+                                <!-- <br> -->
+                                <input type="text" id="first_name" name="first_name" required>
+                                <br>
+                                <label for="email">Email</label>
+                                <!-- <br> -->
+                                <input type="email" id="email" name="email" required>
+                                <br>
+                                <label for="password">Password</label>
+                                <!-- <br> -->
+                                <input type="password" id="password" name="password" required>
+                                <br>
+                                <!-- </form> -->
+                            </div>
+                            <div>
+                                <!-- <form action="#" method="post" autocomplete="off"> -->
+                                <label for="last_name">Last Name</label>
+                                <!-- <br> -->
+                                <input type="text" id="last_name" name="last_name" required>
+                                <br>
+                                <label for="phone">Phone Number</label>
+                                <!-- <br> -->
+                                <input type="tel" id="phone" name="phone" required>
+                                <br>
+                                <label for="confirm_password">Confirm Password</label>
+                                <!-- <br> -->
+                                <input type="password" id="confirm_password" name="confirm_password" required>
+                                <br>
+                                <!-- </form> -->
+                            </div>
+                        <!-- </form> -->
+                    </div>
+                </div>
+                <div id="create-account-container">
+                    <button type="submit" id="submit-button">Create Account</button>
+                    <p>Already have an account? <span><a href="#">Log In</a></span></p>
                 </div>
             </div>
-            <div id="create-account-container">
-                <button>Create Account</button>
-                <p>Already have an account? <span><a href="#">Log In</a></span></p>
-            </div>
-        </div>
+        </form>
     </div>
-
+<script src="script.jsx"></script>
 </body>
 
 </html>
