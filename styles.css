@@ -1,0 +1,141 @@
+* {
+    /* border: 1px solid black; */
+    font-family: 'Rubik', sans-serif;
+}
+
+#right-container * {
+    /* border: 1px solid black; */
+}
+
+html, body, div {
+    /* height: 100%;
+    width: 100%; */
+    margin: 0;
+}
+
+#page-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#left-container {
+    position: relative;
+    text-align: center;
+    width: 40vw;
+    height: 100vh;
+    /* padding: 20px; */
+    background-color: red;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+}
+
+.bottom-centered {
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10px;
+}
+
+
+#left-container img {
+    width: 40vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#right-container {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    /* padding-left: 20px; */
+    color: black;
+    
+}
+
+#mini-container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+#mini-container div {
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#hero-container {
+    height: 35%;
+    /* padding-top: */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* width: 85%; */
+    padding-left: 20px;
+    background-color: azure;
+}
+
+#hero-container h2 {
+    width:85%;
+}
+
+#sign-up-container {
+    height: 35%;
+    padding-left: 20px;
+}
+
+form {
+    display: inline-flex;
+}
+
+#mini-container form {
+    gap: 50px;
+}
+
+#mini-container form input {
+    width: 250px;
+    height: 25px;
+}
+
+#create-account-container {
+    height: 30%;
+    padding-left: 20px;
+    background-color:azure;
+}
+
+#create-account-container button {
+    font-size: 20px;
+    width: 225px;
+    height: 42px;
+    border-radius: 1px;
+    background-color: #596D48;
+    margin-top: 20px;
+    color: white;
+}
+
+#create-account-container p {
+    margin-top: 30px;
+}
+
+#create-account-container p a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+    
+}
+
+#emphasize-text {
+    color: darkslateblue;
+}
