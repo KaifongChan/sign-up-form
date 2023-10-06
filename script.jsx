@@ -8,6 +8,8 @@ submitButton.addEventListener('click', (evt) => {
     alert("You've successfully created an account. Please refresh.")
 });
 
+// hello motoo
+
 const matchingPasswords = () => {
     let firstPassword = document.getElementById("password").value;
     let secondPassword = document.getElementById("confirm_password").value;
