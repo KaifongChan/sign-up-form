@@ -9,6 +9,7 @@ submitButton.addEventListener('click', (evt) => {
 });
 
 // hello motoo
+// i am a dragon
 
 const matchingPasswords = () => {
     let firstPassword = document.getElementById("password").value;
